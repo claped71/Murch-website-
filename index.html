@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Murch - Utility-Scale PV Project | Greensol Renewables</title>
+  <meta name="description" content="Discover the Murch solar project: utility-scale PV development by Greensol Renewables, delivering clean energy through proven engineering and community partnership." />
+  <meta name="keywords" content="Murch solar, utility-scale PV, Greensol Renewables, solar farm, clean energy" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo">
+        <img src="greensol-logo.png" alt="Greensol Renewables" class="header__logo-img" width="240" height="64" />
+      </a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#specs" class="nav__link">Tech Specs</a></li>
+          <li><a href="#timeline" class="nav__link">Timeline</a></li>
+          <li><a href="#team" class="nav__link">Team</a></li>
+          <li><a href="#impact" class="nav__link">Community</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn--primary header__cta">Contact Us</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <ul>
+      <li><a href="#home" class="mobile-nav__link">Home</a></li>
+      <li><a href="#about" class="mobile-nav__link">About the Project</a></li>
+      <li><a href="#specs" class="mobile-nav__link">Technical Specs</a></li>
+      <li><a href="#timeline" class="mobile-nav__link">Timeline & Progress</a></li>
+      <li><a href="#team" class="mobile-nav__link">Team & Contacts</a></li>
+      <li><a href="#impact" class="mobile-nav__link">Community Impact</a></li>
+      <li><a href="#faq" class="mobile-nav__link">FAQ</a></li>
+      <li><a href="#contact" class="mobile-nav__link mobile-nav__cta">Contact Us</a></li>
+    </ul>
+  </div>
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero__bg">
+      <div class="hero__slideshow" aria-label="Project photo slideshow">
+        <div class="hero__slide active"><img src="slide1.jpg" alt="Solar panel pallets staged on Murch project site" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide2.jpg" alt="Tracker pile installation crew working in Van Buren County field" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide3.jpg" alt="Steel piles installed in rows across the Murch site" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide4.jpg" alt="Pile driver machine and crew during tracker foundation work" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide5.jpg" alt="Equipment delivery and unloading on a sunny day at the Murch site" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide6.jpg" alt="Substation and electrical infrastructure under construction" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide7.jpg" alt="Construction vehicles staged at the Murch site under blue sky" class="hero__photo" /></div>
+        <div class="hero__slide"><img src="slide8.jpg" alt="Pile driver machines delivered on flatbed trucks to the Murch site" class="hero__photo" /></div>
+      </div>
+      <button class="hero__slide-btn hero__slide-btn--prev" aria-label="Previous photo">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="hero__slide-btn hero__slide-btn--next" aria-label="Next photo">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="hero__dots" role="tablist" aria-label="Slideshow navigation">
+        <button class="hero__dot active" role="tab" aria-selected="true" aria-label="Photo 1"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 2"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 3"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 4"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 5"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 6"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 7"></button>
+        <button class="hero__dot" role="tab" aria-selected="false" aria-label="Photo 8"></button>
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__solar-pattern" aria-hidden="true"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__badge" aria-label="Project status"><span class="pulse"></span>Active Development</div>
+      <h1 class="hero__title">Murch Utility-Scale<br/>Solar Project</h1>
+      <p class="hero__subtitle">Powering the future with clean, utility-scale photovoltaic energy — built by Greensol Renewables</p>
+      <div class="hero__stats" aria-label="Key project metrics">
+        <div class="hero__stat"><span class="hero__stat-num" data-target="102">0</span><span class="hero__stat-unit">MW</span><span class="hero__stat-label">System Capacity (DC)</span></div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat"><span class="hero__stat-num" data-target="320">0</span><span class="hero__stat-unit">GWh</span><span class="hero__stat-label">Annual Production</span></div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat"><span class="hero__stat-num" data-target="45000">0</span><span class="hero__stat-unit">+</span><span class="hero__stat-label">Homes Powered</span></div>
+      </div>
+      <div class="hero__actions"><a href="#about" class="btn btn--primary">Learn More</a><a href="#timeline" class="btn btn--secondary">View Timeline</a><a href="#contact" class="btn btn--ghost">Contact Us</a></div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down"><span>Scroll to explore</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 4v12M4 10l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </section>
+
+  <section class="section section--white" id="about" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">About the Project</span>
+        <h2 class="section__title" id="about-title">Murch — Utility-Scale Solar</h2>
+        <p class="section__lead">The Murch project is a utility-scale photovoltaic development engineered to deliver reliable, clean energy to the grid.</p>
+      </div>
+      <div class="about__cards">
+        <div class="info-card reveal">
+          <div class="info-card__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2C9.373 2 4 7.373 4 14c0 9 12 18 12 18s12-9 12-18c0-6.627-5.373-12-12-12zm0 16a4 4 0 110-8 4 4 0 010 8z" fill="currentColor"/></svg></div>
+          <h3 class="info-card__title">Location</h3>
+          <p class="info-card__value">Murch Site</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2l2.4 7.4H26l-6.2 4.5 2.4 7.4L16 17l-6.2 4.3 2.4-7.4L6 9.4h7.6L16 2z" fill="currentColor"/></svg></div>
+          <h3 class="info-card__title">System Capacity</h3>
+          <p class="info-card__value">102 MW DC</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="info-card__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="16" width="5" height="12" rx="1" fill="currentColor"/><rect x="13" y="10" width="5" height="18" rx="1" fill="currentColor"/><rect x="22" y="4" width="5" height="24" rx="1" fill="currentColor"/></svg></div>
+          <h3 class="info-card__title">Expected COD</h3>
+          <p class="info-card__value">Q4 2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--gray" id="specs" aria-labelledby="specs-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Engineering</span>
+        <h2 class="section__title" id="specs-title">Technical Specifications</h2>
+      </div>
+      <div class="team__grid">
+        <div class="team-card reveal">
+          <img src="audelio-zuniga.jpg" alt="Audelio Zúñiga" class="team-card__photo" />
+          <h3 class="team-card__name">Audelio Zúñiga</h3>
+          <p class="team-card__title">Construction Manager</p>
+        </div>
+        <div class="team-card reveal">
+          <img src="jose-bonilla.jpg" alt="Jose Bonilla" class="team-card__photo" />
+          <h3 class="team-card__name">Jose Bonilla</h3>
+          <p class="team-card__title">Engineering Lead</p>
+        </div>
+        <div class="team-card reveal">
+          <img src="joshua-spalding.jpg" alt="Joshua Spalding" class="team-card__photo" />
+          <h3 class="team-card__name">Joshua Spalding</h3>
+          <p class="team-card__title">Community Liaison</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" aria-label="Site footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__col--brand">
+        <a href="#home" class="footer__logo" aria-label="Greensol Renewables home">
+          <img src="greensol-logo.png" alt="Greensol Renewables" width="160" height="44" class="footer__logo-img" />
+        </a>
+        <p class="footer__tagline">Energy for the future.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 Greensol Renewables. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
