@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none" role="img" aria-label="Greensol Renewables logo">
+  <!-- Sun / solar burst mark -->
+  <circle cx="30" cy="30" r="10" fill="#27AE60"/>
+  <!-- Rays -->
+  <line x1="30" y1="6" x2="30" y2="14" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="46" x2="30" y2="54" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="6"  y1="30" x2="14" y2="30" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="46" y1="30" x2="54" y2="30" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="12.7" y1="12.7" x2="18.5" y2="18.5" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="41.5" y1="41.5" x2="47.3" y2="47.3" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="47.3" y1="12.7" x2="41.5" y2="18.5" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <line x1="18.5" y1="41.5" x2="12.7" y2="47.3" stroke="#27AE60" stroke-width="3" stroke-linecap="round"/>
+  <!-- Inner highlight -->
+  <circle cx="30" cy="30" r="5" fill="#fff" opacity="0.5"/>
+
+  <!-- Wordmark -->
+  <text x="66" y="26" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#0d1b2a" letter-spacing="-0.5">Green</text>
+  <text x="118" y="26" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#27AE60" letter-spacing="-0.5">sol</text>
+  <text x="66" y="42" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#64748b" letter-spacing="2">RENEWABLES</text>
+
+  <!-- Leaf accent under wordmark -->
+  <path d="M66 46 Q102 46 146 46" stroke="#27AE60" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+</svg>
